@@ -28,12 +28,18 @@
     "contributors":[],
     "dependencies":{
         "bootstrap":"http://www.purposefultechnologies.com/cbpackages/bootstrap.zip",
-        "jQuery":"http://www.purposefultechnologies.com/cbpackages/jquery.zip"
+        "jQuery":"http://www.purposefultechnologies.com/cbpackages/jquery.zip",
+        "babel":"http://www.purposefultechnologies.com/cbpackages/babel.zip",
+        "ckeditor":"http://www.purposefultechnologies.com/cbpackages/ckeditor.zip",
+        "react":"http://www.purposefultechnologies.com/cbpackages/react.zip"
     },
     "devDependencies":{},
     "installPaths":{
         "bootstrap":"bower_components/bootstrap",
-        "jQuery":"bower_components/jQuery"
+        "jQuery":"bower_components/jQuery/",
+        "babel":"bower_components/babel",
+        "ckeditor":"bower_components/ckeditor",
+        "react":"bower_components/react"
     },
     "scripts":{},
     "ignore":[
