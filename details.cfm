@@ -74,7 +74,7 @@
     <cfargument name="bookQ" type="query" required="true">
     <div>
         <cfoutput>
-            <img src="/images/#bookQ.image[1]#" style="float:left; width:250px; height:250px;">
+            <img src="/images/#bookQ.coverimage[1]#" style="float:left; width:250px; height:250px;">
             <span>Title: #bookQ.title[1]#</span><br/>
         <span>Publisher: <a href="#cgi.script_name#?p=details&publisher=#bookQ.publisher#">#bookQ.name[1]#</a></span>
             <span>#bookQ.description[1]#</span>
