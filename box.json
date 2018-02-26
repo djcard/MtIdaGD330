@@ -31,7 +31,8 @@
         "jQuery":"http://www.purposefultechnologies.com/cbpackages/jquery.zip",
         "babel":"http://www.purposefultechnologies.com/cbpackages/babel.zip",
         "ckeditor":"http://www.purposefultechnologies.com/cbpackages/ckeditor.zip",
-        "react":"http://www.purposefultechnologies.com/cbpackages/react.zip"
+        "react":"http://www.purposefultechnologies.com/cbpackages/react.zip",
+        "testbox":"^2.6.0+156"
     },
     "devDependencies":{},
     "installPaths":{
@@ -39,7 +40,8 @@
         "jQuery":"bower_components/jQuery/",
         "babel":"bower_components/babel",
         "ckeditor":"bower_components/ckeditor",
-        "react":"bower_components/react"
+        "react":"bower_components/react",
+        "testbox":"testbox"
     },
     "scripts":{},
     "ignore":[
